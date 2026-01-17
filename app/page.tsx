@@ -229,11 +229,12 @@ export default function Home() {
                 </ul>
               </div>
               <div className="border border-white/20 p-6">
-                <Image
-                  src="/images/process-01-connect.png"
-                  alt="Connect"
-                  width={600}
-                  height={400}
+                <video
+                  src="/images/process-01-connect.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
                   className="w-full h-auto"
                 />
               </div>
@@ -340,11 +341,12 @@ export default function Home() {
           >
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="border border-white/20 p-6 order-2 md:order-1">
-                <Image
-                  src="/images/process-04-monitor.png"
-                  alt="Monitor"
-                  width={600}
-                  height={400}
+                <video
+                  src="/images/process-04-monitor.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
                   className="w-full h-auto"
                 />
               </div>
